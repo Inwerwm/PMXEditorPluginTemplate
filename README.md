@@ -1,0 +1,2 @@
+# PMXEditorPluginTemplate
+PMXEditorPlugin用プロジェクトテンプレート
