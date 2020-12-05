@@ -1,5 +1,5 @@
 ﻿
-namespace PMXEditorPluginFormTemplate
+namespace $safeprojectname$
 {
     partial class FormControl
     {
@@ -32,7 +32,7 @@ namespace PMXEditorPluginFormTemplate
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "FormControl";
+            this.Text = "$safeprojectname$";
         }
 
         #endregion
