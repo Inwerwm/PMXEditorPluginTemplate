@@ -9,7 +9,7 @@
 //------------------------------------------------------------------------------
 
 
-namespace PMXEditorPluginWPFTemplate.Properties
+namespace $safeprojectname$.Properties
 {
     /// <summary>
     ///   ローカライズされた文字列などを検索するための、厳密に型指定されたリソース クラスです。
@@ -43,7 +43,7 @@ namespace PMXEditorPluginWPFTemplate.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("PMXEditorPluginWPFTemplate.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("$safeprojectname$.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

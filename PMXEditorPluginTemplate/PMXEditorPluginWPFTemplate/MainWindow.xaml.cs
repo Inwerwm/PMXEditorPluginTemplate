@@ -14,7 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace PMXEditorPluginWPFTemplate
+namespace $safeprojectname$
 {
     /// <summary>
     /// MainWindow.xaml の相互作用ロジック
