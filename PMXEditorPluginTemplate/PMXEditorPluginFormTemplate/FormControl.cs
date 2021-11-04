@@ -29,5 +29,11 @@ namespace $safeprojectname$
         {
             // TODO: プラグインの再読み込み処理を記述します。
         }
+
+        private void FormControl_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            e.Cancel = true;
+            Hide();
+        }
     }
 }
