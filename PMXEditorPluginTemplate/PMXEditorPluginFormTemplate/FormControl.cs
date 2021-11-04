@@ -16,7 +16,6 @@ namespace $safeprojectname$
     public partial class FormControl : Form
     {
         IPERunArgs Args { get; }
-        IPXPmx Pmx { get; set; }
 
         public FormControl(IPERunArgs args)
         {
@@ -28,7 +27,7 @@ namespace $safeprojectname$
 
         internal void Reload()
         {
-            Pmx = Args.Host.Connector.Pmx.GetCurrentState();
+            // TODO: プラグインの再読み込み処理を記述します。
         }
     }
 }
