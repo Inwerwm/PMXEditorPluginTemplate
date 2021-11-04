@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PMXEditorPluginTemplate", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PMXEditorPluginFormTemplate", "PMXEditorPluginFormTemplate\PMXEditorPluginFormTemplate.csproj", "{42AAC514-F608-4520-9192-71707C11BDFD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PMXEditorPluginWPFTemplate", "PMXEditorPluginWPFTemplate\PMXEditorPluginWPFTemplate.csproj", "{B3EDFF97-30DB-45FA-854D-586E052D62BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{42AAC514-F608-4520-9192-71707C11BDFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42AAC514-F608-4520-9192-71707C11BDFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42AAC514-F608-4520-9192-71707C11BDFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3EDFF97-30DB-45FA-854D-586E052D62BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3EDFF97-30DB-45FA-854D-586E052D62BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3EDFF97-30DB-45FA-854D-586E052D62BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3EDFF97-30DB-45FA-854D-586E052D62BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
