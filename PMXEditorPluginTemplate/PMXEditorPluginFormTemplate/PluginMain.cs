@@ -20,24 +20,15 @@ namespace $safeprojectname$
 
         public IPEPluginOption Option => new PEPluginOption(false, true);
 
-        private FormControl form;
+        private FormControl Form { get; set; }
 
         public void Run(IPERunArgs args)
         {
             try
             {
-                if (form == null)
-                {
-                    form = new FormControl(args);
-                    form.Visible = true;
-                    form.Reload();
-                }
-                else
-                {
-                    form.Visible = !form.Visible;
-                    if(form.Visible)
-                        form.Reload();
-                }
+                Form = Form ?? new FormControl(args);
+                Form.Reload();
+                Form.Show();
             }
             catch (Exception ex)
             {
